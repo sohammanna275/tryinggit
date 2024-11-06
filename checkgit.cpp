@@ -2,6 +2,26 @@
 #include<cmath>
 #include<string.h>
 using namespace std;
+class Rectangle
+{
+    private:
+	int length;
+	int breadth;
+	    
+    public:
+	Rectangle()
+	{
+			
+		length=1;
+		breadth=1;
+	}
+	        
+int area()
+	{
+		return length*breadth;
+	}
+	
+};
 int main()
 {
    int t,a,b,c,x,p;
